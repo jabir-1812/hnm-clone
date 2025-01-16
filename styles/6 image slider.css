@@ -1,0 +1,67 @@
+.men-fashion-best-deals{
+    font-size: 18px;
+    font-weight: bold;
+    width: 960px;
+}
+
+.men-fashion-best-deals-image-slider{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50px 130px 130px 130px 130px 130px 130px 50px;
+    width: 960px;
+    column-gap: 15px;
+}
+
+.men-fashion-best-deals-image-slider img{
+    width: 100%;
+}
+
+.men-fashion-best-deals-image-slider button{
+    font-family: HM Sans Regular;
+    background-color: #FAF9F8;
+    border: #FAF9F8 solid ;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.men-fashion-best-deals-image-slider button:hover{
+    color: #c9002e;
+}
+
+.men-fashion-best-deals-image-slider-product-info{
+    font-size: 13px;
+}
+
+.product-name-of-image-slider{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-name-of-image-slider a{
+    color: black;
+    text-decoration: none;
+}
+
+.product-name-of-image-slider:hover{
+    text-decoration: underline black;
+}
+
+.product-price-details-in-image-slider{
+    display: flex;
+    column-gap: 5px;
+}
+
+.prices-in-image-slider{
+    color: #c9002e;
+}
+
+.mrp-in-image-slider{
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.product-colors-in-image-slider{
+    font-size: 19px;
+    word-spacing: -2px;
+}

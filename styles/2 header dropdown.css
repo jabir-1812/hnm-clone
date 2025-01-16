@@ -1,0 +1,156 @@
+
+.sign-in,
+.shopping-bag{
+    position: relative;
+}
+
+.submenu-of-sign-in{
+    position: absolute;
+    padding: 20px 20px;
+    height: 150px;
+    top: 20px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+    background-color: #FAF9F8;
+}
+.sign-in:hover .submenu-of-sign-in{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.sign-in-button{
+    width: 200px;
+    padding: 12px 0px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: HM Sans Regular;
+    margin-bottom: 20px;
+}
+
+.div-of-my-account,
+.div-of-membership{
+    width: 100%;
+    margin-bottom: 10px;
+    pointer-events: auto;
+}
+
+.div-of-join-here-link{
+    width: 100%;
+    font-size: 11px;
+}
+
+.div-of-join-here-link a{
+    color: rgba(0,0,0,.6);
+}
+
+.submenu-of-shopping-bag{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    top: 20px;
+    right: 0;
+    padding: 20px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.shopping-bag-stats,
+.order-stats,
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.order-stats{
+    border-top: 1px solid rgb(215, 215, 215);
+    border-bottom: 1px solid rgb(215, 215, 215);
+    color: rgba(0,0,0,.6);
+    padding: 15px 0px;
+    margin-top: 10px;
+}
+
+.total{
+    font-size: 17px;
+}
+
+.shopping-bag:hover .submenu-of-shopping-bag{
+    opacity: 1;
+    pointer-events: auto;
+}
+.second-row-middle-section-of-header div{
+    border-bottom: 5px solid white;
+}
+
+.second-row-middle-section-of-header div:hover{
+    border-bottom: 5px solid black;
+}
+
+.second-row-middle-section-of-header{
+    position: relative;
+}
+
+.submenu-of-sales,
+.submenu-of-ladies,
+.submenu-of-men,
+.submenu-of-baby,
+.submenu-of-kids,
+.submenu-of-home{
+    position: absolute;
+    top: 26px;
+    left: -100px;
+    right: -100px;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    pointer-events: none;
+    opacity: 0;
+    padding:15px 0px 0px 0px;
+    background-color: #faf9f8;
+    border-bottom: 5px solid black;
+    min-height: 450px;
+} 
+
+.sale:hover .submenu-of-sales,
+.ladies:hover .submenu-of-ladies,
+.men:hover .submenu-of-men,
+.baby:hover .submenu-of-baby,
+.kids:hover .submenu-of-kids,
+.home:hover .submenu-of-home{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.submenu-of-sales div,
+.submenu-of-ladies div,
+.submenu-of-men div,
+.submenu-of-baby div,
+.submenu-of-kids div,
+.submenu-of-home div{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    margin: 0px 25px;
+}
+.submenu-of-sales a,
+.submenu-of-ladies a,
+.submenu-of-men a,
+.submenu-of-baby a,
+.submenu-of-kids a,
+.submenu-of-home a{
+    margin: 2px 0px;
+}
+
+.title-of-submenu{
+    font-weight: bold;
+    margin-bottom: 3px;
+}

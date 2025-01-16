@@ -1,0 +1,9 @@
+body{
+    font-family: HM Sans regular;
+    background-color: #FAF9F8;
+    padding-top: 20px;
+}
+
+button{
+cursor: pointer;
+}

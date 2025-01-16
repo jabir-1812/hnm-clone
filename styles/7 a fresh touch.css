@@ -1,0 +1,43 @@
+.div-of-a-fresh-touch-poster{
+    width: 960px;
+    position: relative;
+}
+
+.overlay-effect-on-div-of-a-fresh-touch-poster{
+    position: absolute;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.3));
+    top: 0; bottom: 5px;
+    right: 0; left: 0;
+}
+
+.div-of-a-fresh-touch-poster img{
+    width: 100%;
+}
+
+.description-container-of-a-fresh-touch-poster{
+    position: absolute;
+    top: 445px;
+    left: 50px;
+    color: white;
+}
+
+.title-of-a-fresh-touch-poster{
+    width: 100%;
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.description-container-of-a-fresh-touch-poster button{
+    padding: 5px 12px;
+    font-family: HM Sans Regular;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    border: solid white;
+    margin: 20px 0px;
+}
+
+.description-container-of-a-fresh-touch-poster button:hover{
+    background-color: rgb(230,230,230);
+    border-color: rgb(230,230,230)
+}

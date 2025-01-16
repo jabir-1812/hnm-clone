@@ -1,0 +1,41 @@
+.div-of-the-wellness-edit{
+    width: 960px;
+    position: relative;
+}
+
+.div-of-the-wellness-edit img{
+    width: 100%;
+}
+
+.title-of-wellness-edit{
+    position: absolute;
+    top: 470px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.div-of-shop-now-button-of-wellness-edit{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    top: 570px;
+}
+
+.div-of-shop-now-button-of-wellness-edit button{
+    padding: 5px 10px;
+    font-style: HM Sans Regular;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: white;
+    border: solid white;
+}
+
+.div-of-shop-now-button-of-wellness-edit button:hover{
+    background-color: rgb(230,230,230);
+    border-color: rgb(230,230,230);
+}

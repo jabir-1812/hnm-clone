@@ -1,0 +1,76 @@
+.div-of-the-denim-edit-poster{
+    width: 960px;
+    position: relative;
+}
+.div-of-the-denim-edit-poster img{
+    width: 100%;
+}
+
+.product-details-in-the-denim-edit-poster{
+    position: absolute;
+    top: 350px;
+    right: 130px;
+    display: flex;
+    align-items: center;
+}
+.left-direction-triangle-in-denim-edit-poster img{
+    width: 25px;
+    margin-right: -8px;
+}
+
+.row-of-denim-product-name{
+    display: flex;
+}
+
+.row-of-denim-product-name img{
+    width: 12px;
+    vertical-align: middle;
+}
+
+.product-price-and-name-in-the-denim-edit-poster{
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+.product-name-of-denim-edit-poster{
+    max-width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.title-of-the-denim-edit-poster{
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-size: 43px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    top: 460px;
+}
+
+.div-of-buttons-of-the-denim-edit-poster{
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.div-of-buttons-of-the-denim-edit-poster button{
+    padding: 5px 12px;
+    font-family: HM Sans Regular;
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-weight: bold;
+    background-color: white;
+    border: solid white;
+    margin: 0px 3px;
+}
+
+.div-of-buttons-of-the-denim-edit-poster button:hover{
+    background-color: rgb(230,230,230);
+    border-color: rgb(230,230,230)
+}

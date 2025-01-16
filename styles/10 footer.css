@@ -1,0 +1,97 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+    align-items: center;
+    background-color: #E4E4E4;
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.first-row-of-footer{
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+    padding: 50px 20px 0px 20px;
+    box-sizing: border-box;
+}
+.shop-section,
+.corporate-info-section,
+.help-section,
+.sign-up-ad{
+    flex: 1;
+}
+
+.shop-section,
+.corporate-info-section,
+.help-section,
+.sign-up-ad{
+    color: black;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-section p,
+.corporate-info-section p,
+.help-section p{
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+.shop-section a,
+.corporate-info-section a,
+.help-section a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    line-height: 25px;
+    letter-spacing: .5px;
+}
+
+.shop-section a:hover,
+.corporate-info-section a:hover,
+.help-section a:hover{
+    text-decoration: underline;
+}
+
+.sign-up-ad{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.sign-up-ad a{
+    font-size: 16px;
+    color: black;
+}
+.sign-up-ad div:hover,
+.sign-up-ad a:hover{
+    color: rgba(0,0,0,.6);
+}
+
+.social-media-link{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+}
+
+.social-media-link img{
+    width: 18px;
+    margin: 0px 2px ;
+}
+
+.third-row-of-footer{
+    font-size: 11px;
+}
+
+.hnm-logo-of-footer img{
+    width: 40px;
+}
+
+.last-row-of-footer{
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: .4px;
+}

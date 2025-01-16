@@ -1,0 +1,75 @@
+.div-of-classic-silhouettes-poster{
+    width: 960px;
+    position: relative;
+}
+
+.div-of-classic-silhouettes-poster img{
+    width: 100%;
+}
+.container-of-title-of-classic-silhouette-poster{
+    position: absolute;
+    top: 35%;
+    left: 45px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.super-sub-title-of-classic-silhouettes-poster{
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+
+.title-of-classic-silhouettes-poster{
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.div-of-shop-now-button-of-classic-silhouettes-poster button{
+    padding: 5px 12px;
+    font-family: HM Sans Regular;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    border: solid white;
+    margin-top: 15px;
+}
+
+.div-of-shop-now-button-of-classic-silhouettes-poster button:hover{
+    background-color: rgb(230,230,230);
+    border-color: rgb(230,230,230)
+}
+
+.product-details-in-classic-silhouettes-poster{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 200px;
+    right: 250px;
+}
+
+.row-of-classic-silhouette-product-name img{
+    width: 12px;
+    vertical-align: middle;
+}
+
+.left-direction-triangle-in-classic-silhouette img{
+    width: 25px;
+    margin-right: -8px;
+}
+.product-price-and-name-in-the-classic-silhouette-poster{
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+.row-of-classic-silhouette-product-name{
+    display: flex;
+}
+
+.product-name-in-classic-silhouette{
+    max-width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

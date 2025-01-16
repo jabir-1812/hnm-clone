@@ -1,0 +1,40 @@
+.div-of-discount-sale-poster{
+    background-color: #c9002e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 960px;
+    padding: 240px 0px 0px 0px;
+}
+
+.title-of-discount-of-sale{
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+}
+
+.sub-title-of-discount-of-sale{
+    color: white;
+    font-size: 30px;
+}
+
+.div-of-discount-sale-poster button{
+    padding: 5px 12px;
+    font-family: HM Sans Regular;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    border: solid white;
+    margin: 160px 3px 15px 3px;
+}
+
+.div-of-discount-sale-poster button:hover{
+    background-color: rgb(230,230,230);
+    border-color: rgb(230,230,230);
+}
+
+.terms-and-conditions-of-discount-sale-poster{
+    color: white;
+    font-size: 11px;
+    margin: 20px 0px;
+}
